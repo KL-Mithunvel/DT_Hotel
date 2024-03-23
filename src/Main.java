@@ -11,7 +11,7 @@ public class Main {
         r_1706.add_furniture(table);
         r_1706.countFurnitureType(FurnitureType.Chair);
         r_1706.countFurnitureType(FurnitureType.Bed);
-        r_1706.applianceList.add(new Appliance(350,"LG 106","123456789"));
+        r_1706.applianceList.add(new Refrigerator(350,"LG 106","123456789"));
         Refrigerator rf1= new Refrigerator(1800,"whirlpool","9443352");
         r_1706.applianceList.add(rf1);
         for (int i = 0; i < r_1706.applianceList.size(); i++) {

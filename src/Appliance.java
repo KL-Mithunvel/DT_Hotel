@@ -1,4 +1,4 @@
-public class Appliance {
+abstract class Appliance {
     double rated_power;
     String model;
     String serial_no;
