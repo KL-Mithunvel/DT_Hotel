@@ -11,5 +11,6 @@ enum FurnitureType{
     Chair,
     Table,
     Bed,
-    SofaBed
+    SofaBed,
+    sofa
 }

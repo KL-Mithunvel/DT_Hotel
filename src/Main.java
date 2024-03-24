@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         Hotel novotel = new Hotel();
-        Room r_1706= new Room();
+        Suite_Room r_1706= new Suite_Room();
         novotel.rooms.add(r_1706);
         Furniture chair1= new Furniture(FurnitureType.Chair);
         r_1706.add_furniture(chair1);
@@ -18,5 +18,9 @@ public class Main {
             System.out.println(r_1706.applianceList.get(i).model);
 
         }
+        Customer klm=new Customer();
+        klm.buy(r_1706);
+        klm.buy(new Lamp(34,"345","ghj" ));
+        
     }
 }
